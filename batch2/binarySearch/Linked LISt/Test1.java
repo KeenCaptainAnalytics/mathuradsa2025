@@ -15,6 +15,9 @@ public class Test1 {
         }
         head.next = temp;
     }
+    static LNode insertAtK(LNode head, int val , int k){
+
+    }
     public static void main(String[] args) {
         LNode obj1 = new LNode(10);
         LNode obj2 = new LNode(20);
@@ -24,6 +27,7 @@ public class Test1 {
         obj2.next = obj3;
         obj3.next = obj4;
         insertAtEnd(obj1, 50);
+        LNode head= insertAtK(obj1, 35, 2);
         print(obj1);
     }
 }
